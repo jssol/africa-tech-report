@@ -6,10 +6,13 @@
 }
 
 .headline-title {
-  background-image: url("../assets/images/harshil.jpg");
+  background-image: url(../assets/images/harshil.jpg);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-clip: text;
-  color: transparent;
+  color: #ec534280;
   font-size: var(--fs-title);
   text-transform: uppercase;
   margin-bottom: 0.25em;
