@@ -6,11 +6,11 @@
 }
 
 .headline-title {
-  background-clip: text;
-  background-clip: text;
   background-image: url("../assets/images/harshil.jpg");
   background-position: center;
-  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
   color: transparent;
   font-size: var(--fs-title);
   text-transform: uppercase;
@@ -173,7 +173,7 @@
   display: block;
   width: 4em;
   height: 4em;
-  background: url(../assets/images/hu-chen.jpg);
+  background: url("../assets/images/hu-chen.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0.5em;
