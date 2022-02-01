@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@font-face {
+  font-family: "Cocogoose";
+  src: url('../assets/fonts/cocogoose-regular.ttf') format("truetype");
+  font-weight: 100 700;
+}
+
+/* Custom variables */
+:root {
+  /* Color palette */
+	--clr-dark: #272A31;
+	--clr-accent: #EC5242;
+	--clr-light: #D3D3D3;
+
+  /* Typography */
+  --ff-title: 'Cocogoose','monospace', 'Poppins';
+  --ff-text: 'Lato', sans-serif;
+  --fw-title: 600;
+  --fw-text: 400;
+  --fs-title: 3em;
+  --fs-subtitle: 2.25em;
+  --fs-text: 1.5em;
+  --line-height: 1.5;
+}
+
+/* General styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--clr-dark);
+  font-size: var(--fs-text);
+  font-weight: var(--fw-text);
+  font-family: var(--ff-text);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+  line-height: var(--line-height);
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--clr-accent);
+  font-weight: var(--fw-title);
+  font-family: var(--ff-title);
+}
