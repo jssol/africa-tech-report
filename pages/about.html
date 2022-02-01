@@ -4,9 +4,111 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <link 
+  rel="stylesheet" 
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link 
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <link rel="stylesheet" href="./styles/about.css">
+
+  <title>About Africa Tech Report</title>
 </head>
 <body>
-  
+  <header class="header">
+    <div class="brand-logo">Brand</div>
+    <button class="nav-toggle">
+      <div class="hamburger"></div>
+    </button>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list_item"><a href="../pages/about.html" class="nav-list_link link">About</a></li>
+        <li class="nav-list_item"><a href="#program-section" class="nav-list_link link">Program</a></li>
+        <li class="nav-list_item"><a href="#" class="nav-list_link link">Join</a></li>
+        <li class="nav-list_item"><a href="#" class="nav-list_link link">Sponsor</a></li>
+        <li class="nav-list_item"><a href="#" class="nav-list_link link">News</a></li>
+        <li class="nav-list_item"><a href="#" class="nav-list_link link">AT Campaign</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="headline-section">
+      <h1 class="headline-title">Africa Tech Report</h1>
+      <p class="headline-description">
+        Thanks to digital technologies, more people 
+        — no matter their income level or where they live — 
+        can access unprecedented amounts of information, take online jobs, enroll in e-courses, 
+        and receive life-saving care through telemedicine.
+      </p>
+    </section>
+    <section class="program-section" id="program-section">
+      <h2 class="program-section_title">Main Program</h2>
+      <ul class="programs">
+        <li class="program">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <h3 class="program-title">Lecture</h3>
+          <p class="program-details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Labore, necessitatibus.
+          </p>
+        </li>
+        <li class="program">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <h3 class="program-title">Mission</h3>
+          <p class="program-details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Labore, necessitatibus.
+          </p>
+        </li>
+        <li class="program">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <h3 class="program-title">Work</h3>
+          <p class="program-details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Labore, necessitatibus.
+          </p>
+        </li>
+        <li class="program">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <h3 class="program-title">Goal</h3>
+          <p class="program-details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Labore, necessitatibus.
+          </p>
+        </li>
+        <li class="program">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+          <h3 class="program-title">Forum</h3>
+          <p class="program-details">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Labore, necessitatibus.
+          </p>
+        </li>
+      </ul>
+      <a href="#" class="join link">Join Africa Tech Report</a>
+    </section>
+    <section class="speakers-section">
+      <h2 class="speakers-section_title">Featured speakers</h2>
+      <ul class="speakers-list list">
+        <!-- <li class="speaker">
+          <div class="speaker-photo"></div>
+          <div class="speaker-infos">
+            <h3 class="speaker-name"></h3>
+            <h4 class="speaker-job"></h4>
+            <p class="speaker-about"></p>
+          </div>
+        </li> -->
+      </ul>
+      <button type="button" class="ml">
+        <span class="ml-text">More</span>
+        <span class="material-icons ml-arrow" aria-hidden="true">expand_more</span>
+      </button>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="./scripts/navigation.js"></script>
+  <script src="./scripts/speakers.js"></script>
 </body>
 </html>
