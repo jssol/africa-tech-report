@@ -1,14 +1,5 @@
 @import url('design.css');
 
-/* Main */
-.main {
-  width: 100%;
-  background: url('../assets/images/cool-background.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
 /* Headline section */
 .headline-section {
   padding: 4.5em 1em 2em;
