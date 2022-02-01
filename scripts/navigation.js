@@ -23,10 +23,9 @@ navigation.addEventListener('mouseup', () => {
 });
 
 document.addEventListener('scroll', () => {
-  if(getTop(headline) <= 50) {
+  if (getTop(headline) <= 50) {
     header.classList.add('blur');
-  }
-  else {
+  } else {
     header.classList.remove('blur');
   }
 });
