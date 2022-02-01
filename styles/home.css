@@ -9,8 +9,6 @@
   background-image: url("../assets/images/harshil.jpg");
   background-position: center;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
   color: transparent;
   font-size: var(--fs-title);
   text-transform: uppercase;
