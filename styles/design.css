@@ -85,6 +85,17 @@ h3 {
   display: none;
 }
 
+.big-logo {
+  border: 2px solid var(--clr-light);
+  padding: 0.5em;
+  color: var(--clr-accent);
+  font-weight: 700;
+  font-size: var(--fs-subtitle);
+  width: 100%;
+  margin: 0.75em auto;
+  text-align: center;
+}
+
 .nav {
   display: none;
 }
