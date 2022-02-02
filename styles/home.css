@@ -350,5 +350,71 @@
 
   .headline-description {
     width: 65%;
+    padding: 1em;
+    border-width: 3px;
+  }
+  /* Program section */
+  .program-section {
+    padding: 3em 0;
+  }
+  
+  .program-section-title::after {
+    width: 4vw;
+  }
+
+  .programs {
+    list-style: none;
+    flex-direction: row;
+    padding: 0;
+    margin: 2.5em;
+    line-height: 1.2;
+    width: 65%;
+  }
+
+  .program {
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0.5em;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.15);
+    outline: 0.25em solid transparent;
+    transition: all ease-out 150ms;
+  }
+
+  .program:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    outline: 0.25em solid #fff;
+  }
+
+  .program > * {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+
+  .program-title {
+    font-size: 0.9em;
+  }
+  
+  .program-details {
+    font-size: 0.725em;
+  }
+  
+  .program + .program {
+    margin: 0 0 0 0.25em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Headline section */
+  .headline-section {
+    padding: 8em 12em;
+  }
+
+  .headline-description {
+    width: 60%;
   }
 }

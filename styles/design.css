@@ -309,7 +309,7 @@ h3 {
 
 @media only screen and (min-width: 768px) {
   :root {
-    --fs-title: 5em;
+    --fs-title: 4.5em;
     --fs-subtitle: 1.95em;
     --fs-text: 1.05em;
   }
@@ -395,7 +395,7 @@ h3 {
 }
 
 .campaign {
-  outline: 1px solid var(--clr-dark);
+  outline: 3px solid var(--clr-accent);
   outline-offset: 5px;
 }
 
@@ -403,5 +403,11 @@ h3 {
   display: none;
 }
 /* End Header */
+}
+
+@media only screen and (min-width: 992px) {
+  :root {
+    --fs-title: 5em;
+  }
 }
 /* End Responsive media queries */
