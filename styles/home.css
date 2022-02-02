@@ -421,7 +421,7 @@
     color: #fff;
     padding: 1em 1.125em;
     font-weight: 700;
-    width: 20%;
+    width: auto;
     text-align: center;
     text-transform: uppercase;
   }

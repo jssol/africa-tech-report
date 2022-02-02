@@ -172,6 +172,82 @@
 
 /* Media queries */
 @media only screen and (min-width: 768px) {
+/* Header */
+.no-display {
+  display: none;
+}
+/* End Header */
+
+/* Headline section */
+.headline-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6em 8em;
+  background-color: #d3d3d352;
+}
+
+.headline-title {
+  font-size: 3em;
+  margin: 0.5em;
+}
+
+.headline-description {
+  padding: 1em 1.5em;
+  border: 1px solid var(--clr-dark);
+  border-radius: 0.25em;
+  background: #fff;
+  text-align: center;
+  width: 70%;
+}
+
+.contact-us {
+  text-align: center;
+  padding: 1em;
+  font-size: 0.95em;
+  width: 65%;
+}
+
+/* Logo section */
+.logo-section-title::after {
+  width: 4vw;
+}
+
+.logo-description {
+  margin: 0.5em auto;
+  padding: 0.5em 1.5em;
+  width: 60%;
+}
+
+.logo-section > .big-logo {
+  width: 40%;
+  padding: 0.75em;
+  font-size: 2.5em;
+}
+/* End Logo section */
+
+/* Editions section */
+.editions-section-title::after {
+  width: 4vw;
+}
+
+.editions-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.editions-list-item {
+  height: 12em;
+}
+
+.editions-list-item + .editions-list-item {
+  margin: 0 0 0 1.5em;
+}
+/* End Editions section */
+
 /* Partner section */
 .partner-section {
   display: none;
@@ -202,10 +278,10 @@
 @media only screen and (min-width: 992px) {
   /* Headline section */
   .headline-section {
-    padding: 8em 12em;
+    padding: 6em 8em;
   }
 
   .headline-description {
-    width: 60%;
+    width: 70%;
   }
 }
