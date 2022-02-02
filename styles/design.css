@@ -43,6 +43,22 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 14px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #fff;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-dark);
+  width: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.09);
+  border-radius: 6px;
+}
+
 *,
 *::after,
 *::before {
