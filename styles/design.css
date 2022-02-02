@@ -192,3 +192,19 @@ h3 {
   background-image: linear-gradient(to bottom, #ffffff25, #ffffff08);
   backdrop-filter: blur(2px);
 }
+
+/* Responsive media queries */
+@media only screen and (max-width: 360px) {
+  :root {
+    --fs-subtitle: 2.75em;
+    --fs-text: 1.275em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  :root {
+    --fs-subtitle: 2em;
+    --fs-text: 1.125em;
+  }
+}
+/* End Responsive media queries */

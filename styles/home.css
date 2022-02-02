@@ -97,6 +97,7 @@
   width: 82%;
   border: 2px solid transparent;
   transition: all 250ms ease-in-out;
+  text-align: center;
 }
 
 .join:hover {
@@ -234,6 +235,7 @@
   border-radius: 5px;
   font-size: 0.75em;
   font-weight: 600;
+  font-family: var(--ff-title);
   margin: 1em;
   text-transform: uppercase;
   cursor: pointer;
