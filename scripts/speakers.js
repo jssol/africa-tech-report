@@ -2,35 +2,35 @@ const speakers = [
   {
     name: 'Elon Musk',
     job: 'Founder',
-    photo: '',
+    photo: './assets/images/elon.jpg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Labore, necessitatibus.`,
   },
   {
     name: 'Bill Gates',
     job: 'Founder',
-    photo: '',
+    photo: './assets/images/bill.jpg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Labore, necessitatibus.`,
   },
   {
     name: 'Sundar Pichai',
     job: 'Founder',
-    photo: '',
+    photo: './assets/images/sundar.jpg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Labore, necessitatibus.`,
   },
   {
     name: 'Nikola Tesla',
     job: 'Founder',
-    photo: '',
+    photo: './assets/images/tesla.jpg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Labore, necessitatibus.`,
   },
   {
     name: 'Jack Ma',
     job: 'Founder',
-    photo: '',
+    photo: './assets/images/ma.jpg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Labore, necessitatibus.`,
   },
@@ -46,8 +46,12 @@ const setSpeakers = (speakers, list) => {
     } else {
       li.className = 'speaker';
     }
+    const behind = document.createElement('div');
+    behind.className = 'speaker-behind';
     const photo = document.createElement('div');
     photo.className = 'speaker-photo';
+    photo.appendChild(behind);
+    photo.style.backgroundImage = `url(${speaker.photo})`;
     const infos = document.createElement('div');
     infos.className = 'speaker-infos';
     const name = document.createElement('h3');
