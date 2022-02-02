@@ -1,56 +1,37 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Capstone Project: The Africa Tech Report
 
-# Project Name
+![Microverse bagde](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Description the project.
+> This is the first capstone project from microverse. I chose the theme of an annual tech magazine about the evolution of technology in Africa and all of its impact on people's lives.
 
+## Screenshots
+
+- **Mobile:**
+![Mobile screenshot](./assets/images/mobile.png)
+
+- **Laptops/Desktops:**
+![Computer screenshot](./assets/images/computer.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML/CSS
+- Vanilla JS
+- Technologies:
+  - Git/Github
+  - Fontawesome
+  - Material Design
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jssol.github.io/africa-tech-report/)
 
+## Author
 
-## Getting Started
+👤 **Jonathan Sivahera**
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@jssol](https://github.com/jssol)
+- Twitter: [@jsivahera](https://twitter.com/jsivahera)
+- LinkedIn: [Jonathan Sivahera](https://linkedin.com/in/jsivahera)
 
 ## 🤝 Contributing
 
@@ -61,12 +42,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
