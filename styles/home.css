@@ -189,8 +189,20 @@
 }
 
 .speaker-job {
+  position: relative;
   font-size: 0.7em;
   color: var(--clr-accent);
+  margin-bottom: 0.125em;
+}
+
+.speaker-job::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2em;
+  height: 2px;
+  background-color: var(--clr-dark);
 }
 
 .speaker-about {
