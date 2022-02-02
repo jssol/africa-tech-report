@@ -3,31 +3,31 @@ const speakers = [
     name: 'Elon Musk',
     job: 'CEO of Tesla Motors',
     photo: './assets/images/elon.jpg',
-    description: 'Entrepreneur, founder, CEO, and Chief Engineer at SpaceX.'
+    description: 'Entrepreneur, founder, CEO, and Chief Engineer at SpaceX.',
   },
   {
     name: 'Bill Gates',
     job: 'American businessman',
     photo: './assets/images/bill.jpg',
-    description: 'William Henry Gates III is a software developer, investor, author, and philanthropist.'
+    description: 'William Henry Gates III is a software developer, investor, author, and philanthropist.',
   },
   {
     name: 'Sundar Pichai',
     job: 'CEO of Alphabet',
     photo: './assets/images/sundar.jpg',
-    description: 'Sundar Pichai, Indian-born American executive who is CEO of Google and Alphabet.'
+    description: 'Sundar Pichai, Indian-born American executive who is CEO of Google and Alphabet.',
   },
   {
     name: 'Nikola Tesla',
     job: 'Inventor',
     photo: './assets/images/tesla.jpg',
-    description: 'Serbian-American inventor, electro-mechanical engineer, and futurist.'
+    description: 'Serbian-American inventor, electro-mechanical engineer, and futurist.',
   },
   {
     name: 'Jack Ma',
     job: 'Philanthropist',
     photo: './assets/images/ma.jpg',
-    description: 'He is the co-founder and former executive chairman of Alibaba Group.'
+    description: 'He is the co-founder and former executive chairman of Alibaba Group.',
   },
 ];
 const listOfSpeakers = document.querySelector('.speakers-list');
