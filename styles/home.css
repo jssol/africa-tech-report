@@ -160,25 +160,22 @@
 }
 
 .speaker-photo {
-  position: relative;
+	position: relative;
+	height: 4em;
+	width: 4em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0.5em;
+}
+
+.speaker-behind {
+  position: absolute;
   background: var(--clr-accent);
   width: 3em;
   height: 3em;
-  margin: 0 2em 2em 0;
-  z-index: 0;
-}
-
-.speaker-photo::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 4em;
-  height: 4em;
-  background: url("../assets/images/hu-chen.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0.5em;
-  z-index: 0;
+  top: -0.5em;
+  left: -0.5em;
+  z-index: -5;
 }
 
 .speaker-infos {
