@@ -106,6 +106,10 @@
   border: 2px solid var(--clr-accent);
 }
 
+.full-program {
+  display: none;
+}
+
 /* End Program section */
 
 /* Speakers section */
@@ -405,6 +409,33 @@
   
   .program + .program {
     margin: 0 0 0 0.25em;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .full-program {
+    position: relative;
+    display: block;
+    color: #fff;
+    padding: 1em 1.125em;
+    font-weight: 700;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .full-program::before {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0.75em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    width: 80%;
+    height: 2px;
   }
 }
 
