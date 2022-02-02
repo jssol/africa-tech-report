@@ -193,6 +193,7 @@
   font-size: 0.7em;
   color: var(--clr-accent);
   margin-bottom: 0.125em;
+  font-style: italic;
 }
 
 .speaker-job::after {
