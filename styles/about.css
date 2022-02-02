@@ -134,6 +134,10 @@
   box-shadow: inset -100vw -100vh #ec534280;
 }
 
+.editions-list-item:nth-child(2) {
+  background-image: url("../assets/images/damian.jpg");
+}
+
 .editions-list-item + .editions-list-item {
   margin-top: 0.75em;
 }
