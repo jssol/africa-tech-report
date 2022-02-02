@@ -168,3 +168,44 @@
 }
 
 /* End Editions section */
+
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+/* Partner section */
+.partner-section {
+  display: none;
+}
+/* End Partner section */
+
+/* Footer */
+.footer {
+  background-color: var(--clr-dark);
+  color: #fff;
+}
+
+.footer-item {
+  text-align: end;
+  margin-right: 5em;
+  color: inherit;
+}
+
+.rights {
+  padding: 0.5em;
+  font-size: 0.825em;
+  text-align: start;
+}
+
+/* End Footer */
+}
+
+@media only screen and (min-width: 992px) {
+  /* Headline section */
+  .headline-section {
+    padding: 8em 12em;
+  }
+
+  .headline-description {
+    width: 60%;
+  }
+}
