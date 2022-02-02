@@ -160,12 +160,12 @@
 }
 
 .speaker-photo {
-	position: relative;
-	height: 4em;
-	width: 4em;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0.5em;
+  position: relative;
+  height: 4em;
+  width: 4em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0.5em;
 }
 
 .speaker-behind {
