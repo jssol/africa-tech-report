@@ -7,9 +7,13 @@
 ## Screenshots
 
 - **Mobile:**
+
+---
 ![Mobile screenshot](./assets/images/mobile.png)
 
 - **Laptops/Desktops:**
+
+---
 ![Computer screenshot](./assets/images/computer.png)
 
 ## Built With
@@ -25,6 +29,12 @@
 
 [Live Demo Link](https://jssol.github.io/africa-tech-report/)
 
+## Intro video
+
+> By watching this short video, you will have a better understanding of our project and mission.
+
+[What is The Africa Tech Report?](#url)
+
 ## Author
 
 👤 **Jonathan Sivahera**
@@ -39,9 +49,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Acknowledgement
+## Acknowledgments
 
-
+- This website is based off of [Cindy Shin's](https://www.behance.net/adagio07) design on Behance.
+- Here's is the link to the [design work](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+- This work is under the CC Commons license 4.0
 
 ## Show your support
 
