@@ -216,6 +216,7 @@ h3 {
 
 .blur {
   background-image: linear-gradient(to bottom, #ffffff25, #ffffff08);
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
 }
 
