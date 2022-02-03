@@ -12,6 +12,12 @@ const speakers = [
     description: 'William Henry Gates III is a software developer, investor, author, and philanthropist.',
   },
   {
+    name: 'Radia Perlman',
+    job: 'Networking Maven',
+    photo: './assets/images/radia.jpg',
+    description: 'Helped make Ethernet technology a household name with her Spanning Tree Protocol (STP).',
+  },
+  {
     name: 'Sundar Pichai',
     job: 'CEO of Alphabet',
     photo: './assets/images/sundar.jpg',
