@@ -35,6 +35,22 @@
 
 [What is The Africa Tech Report?](https://www.loom.com/share/ac2ae7cd0abc45edb19133912fc43526)
 
+## Getting started
+
+To get a local copy up and running follow these simple example steps.
+
+Clone the repo with `git clone https://github.com/jssol/africa-tech-report.git`
+
+Run `npm install` from the command line
+
+Run `npx hint .` to test for HTML linting check
+
+Run `npx stylelint "**/*.{css,scss}"` to test for css/scss linting check
+
+Run `npx eslint .` to test for javascript linting check
+
+The app is deployed using Github Pages. You can view it by clicking the [Live Demo Link](#Live-Demo) above.
+
 ## Author
 
 👤 **Jonathan Sivahera**
