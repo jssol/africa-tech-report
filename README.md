@@ -33,7 +33,7 @@
 
 > By watching this short video, you will have a better understanding of our project and mission.
 
-[What is The Africa Tech Report?](#url)
+[What is The Africa Tech Report?](https://www.loom.com/share/ac2ae7cd0abc45edb19133912fc43526)
 
 ## Author
 
