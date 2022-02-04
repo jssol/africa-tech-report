@@ -345,14 +345,14 @@
 @media only screen and (min-width: 768px) {
   /* Headline section */
   .headline-section {
-    padding: 8em 10em;
+    padding: 6em 8em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
   .headline-description {
-    width: 65%;
+    width: 70%;
     padding: 1em;
     border-width: 3px;
   }
@@ -372,14 +372,13 @@
     padding: 0;
     margin: 2.5em;
     line-height: 1.2;
-    width: 65%;
   }
 
   .program {
     flex-direction: column;
     align-items: center;
     align-content: stretch;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: inherit;
     padding: 0.5em;
     flex: 1;
@@ -396,7 +395,7 @@
   .program > * {
     width: 100%;
     text-align: center;
-    margin-top: 0.5em;
+    margin-top: 0.6em;
   }
 
   .program-title {
@@ -405,8 +404,9 @@
 
   .program-details {
     font-size: 0.725em;
+    line-height: 1.2;
   }
-
+  
   .program + .program {
     margin: 0 0 0 0.25em;
   }
@@ -440,7 +440,7 @@
 
   /* Speakers section */
   .speakers-section {
-    padding: 2em 0;
+    padding: 1em 0;
   }
 
   .speakers-section-title::after {
@@ -448,21 +448,23 @@
   }
 
   .speakers-list {
-    display: grid;
+display: grid;
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(2, auto);
-    width: 70%;
-    padding: 2em;
+    width: 85%;
+    padding: 1em;
     gap: 1em;
   }
 
   .speaker {
     height: 6em;
   }
+  
+  .speaker + .speaker {
+  margin-top: 0;
+  }
 
   .speaker-photo {
-    height: 5em;
-    width: 5em;
     margin: 0.75em;
   }
 
@@ -474,17 +476,17 @@
   }
 
   .speaker-name {
-    font-size: 1.175em;
+    font-size: 1.075em;
   }
 
   .speaker-job {
     font-size: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 
   .speaker-about {
-    font-size: 0.85em;
-    line-height: 1.5;
+    font-size: 0.75em;
+    line-height: 1.2;
   }
 
   .speaker-hidden {
@@ -547,6 +549,49 @@
   }
 
   .headline-description {
+    width: 60%;
+  }
+  
+    /* Program section */
+  .programs {
+    width: 68%;
+  }
+
+  .program > * {
+    margin-top: 0.5em;
+  }
+
+  .program-details {
+    line-height: 1.5;
+  }
+  
+   /* Speakers section */  
+  .speakers-section {
+    padding: 2em 0;
+  }
+
+  .speakers-list {
+    width: 80%;
+    padding: 2em;
+    row-gap: 2em;
+  }
+  
+  .speaker-photo {
+    height: 5em;
+    width: 5em;
+  }
+  .speaker-name {
+    font-size: 1.175em;
+  }
+
+  .speaker-about {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+    /* Program section */
+  .programs {
     width: 60%;
   }
 }
