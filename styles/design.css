@@ -429,8 +429,8 @@ h3 {
   :root {
     --fs-title: 5em;
   }
-  
-    /* Header */
+
+  /* Header */
   .upper-header {
     padding: 0.125em 10em;
   }
@@ -438,10 +438,11 @@ h3 {
   .lower-header {
     padding: 1em 10em;
   }
-  
+
   .nav {
     width: 62%;
   }
+
   /* End Header */
 }
 
