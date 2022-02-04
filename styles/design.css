@@ -346,7 +346,7 @@ h3 {
     height: 1.5em;
     width: 100%;
     background-color: var(--clr-dark);
-    padding: 0.125em 10em;
+    padding: 0.125em 5em;
   }
 
   .upper-list {
@@ -375,7 +375,7 @@ h3 {
     height: 3em;
     width: 100%;
     background-color: #fff;
-    padding: 1em 10em;
+    padding: 1em 5em;
   }
 
   .brand-logo {
@@ -389,7 +389,7 @@ h3 {
 
   .nav {
     display: block;
-    width: 60%;
+    width: 70%;
   }
 
   .nav-list {
@@ -429,6 +429,21 @@ h3 {
   :root {
     --fs-title: 5em;
   }
+
+  /* Header */
+  .upper-header {
+    padding: 0.125em 10em;
+  }
+
+  .lower-header {
+    padding: 1em 10em;
+  }
+
+  .nav {
+    width: 62%;
+  }
+
+  /* End Header */
 }
 
 /* End Responsive media queries */
