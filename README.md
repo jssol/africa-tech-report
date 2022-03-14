@@ -8,7 +8,6 @@
 
 - **Mobile:**
 
----
 ![Mobile screenshot](./assets/images/mobile.png)
 
 - **Laptops/Desktops:**
