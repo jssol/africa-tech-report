@@ -1,5 +1,5 @@
 
-# Capstone Project: The Africa Tech Report
+# Capstone Project: Africa Tech Report
 
 ![Microverse bagde](https://img.shields.io/badge/Microverse-blueviolet)
 
