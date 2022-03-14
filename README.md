@@ -12,7 +12,6 @@
 
 - **Laptops/Desktops:**
 
----
 ![Computer screenshot](./assets/images/computer.png)
 
 ## Built With
