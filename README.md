@@ -19,7 +19,7 @@
 
 - HTML/CSS
 - Vanilla JS
-- Technologies:
+- Tools:
   - Git/Github
   - Fontawesome
   - Material Design
