@@ -3,7 +3,7 @@
 
 ![Microverse bagde](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This is the first capstone project from microverse. I chose the theme of an annual tech magazine about the evolution of technology in Africa and all of its impact on people's lives.
+> This is the first capstone project from microverse. I chose to make it about an annual tech magazine about the evolution of technology in Africa and all of its impact on people's lives.
 
 ## Screenshots
 
