@@ -11,7 +11,7 @@
 
 ![Mobile screenshot](./assets/images/mobile.png)
 
-- **Laptops/Desktops:**
+- **Laptops/Desktops**
 
 ![Computer screenshot](./assets/images/computer.png)
 
