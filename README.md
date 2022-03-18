@@ -7,7 +7,7 @@
 
 ## Screenshots
 
-- **Mobile:**
+- **Mobile**
 
 ![Mobile screenshot](./assets/images/mobile.png)
 
